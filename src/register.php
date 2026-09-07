@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * 会員登録ページ
+ * 社員が新規登録するためのプログラム
+ */
 session_start();
 
 if (isset($_SESSION['shain_id'])) {

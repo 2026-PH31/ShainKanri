@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * ホームページ
+ * ログイン済みの社員がアクセスする
+ */
 session_start();
 
 if (!isset($_SESSION['shain_id'], $_SESSION['shain_mei'])) {
